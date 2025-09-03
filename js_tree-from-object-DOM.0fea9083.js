@@ -1,0 +1,2 @@
+!function e(t,n){if(!n||"object"!=typeof n||0===Object.keys(n).length)return;let l=document.createElement("ul");for(let t in n){let r=document.createElement("li");r.textContent=t,l.appendChild(r),"object"==typeof n[t]&&null!==n[t]&&0!==Object.keys(n[t]).length&&e(r,n[t])}t.appendChild(l)}(document.querySelector("#tree"),{Drink:{Wine:{},Schnaps:{}},Fruit:{Red:{Cherry:{},Strawberry:{}},Yellow:{Banana:{},Pineapple:{}}}});
+//# sourceMappingURL=js_tree-from-object-DOM.0fea9083.js.map
